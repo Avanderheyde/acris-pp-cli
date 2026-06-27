@@ -1,0 +1,15 @@
+# Build output
+/build/
+/acris-pp-cli
+/acris-pp-mcp
+*.mcpb
+
+# Local data / run artifacts
+*.db
+*.sqlite
+dogfood-results.json
+workflow-verify-report.json
+apify-actor-audit-report.json
+
+# OS
+.DS_Store
